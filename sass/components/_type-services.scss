@@ -1,0 +1,45 @@
+.padding {
+    padding-top: 0;
+    padding-bottom: 94px;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 1170;
+} 
+
+.work-list__gallery {
+    position: relative;
+    width: 370px;
+    height: 294px;
+    margin-right: 30px;
+    display: block;
+}
+
+.work-list__gallery:nth-child(3n) {
+    margin-right: 0;
+}
+
+.work-list__description {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $roboto-font;
+    font-style: $normal-style;
+    font-weight: $bold;
+    font-size: $main-size;
+    line-height: 1.14;
+    width: 370px;
+    height: 70px;
+    margin: 0;
+    background-color: $work-list-description;
+    color: $primary-white-color;
+}

@@ -1,0 +1,64 @@
+.advantages {
+    height: 251px;
+}
+
+.advantages-list {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.advantages-list__item {
+    margin-right: 30px;
+}
+
+.advantages-list__item:last-child {
+    margin-right: 0;
+}
+
+.advantages-list__title {
+    color: $title-text-color;
+    font-weight: $bold;
+    font-size: $main-size;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.advantages-list__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 270px;
+    height: 75px;
+}
+
+.advantages-list__item::before {
+    display: flex;
+    content: "";
+    background-color: $secondary-background-color;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advantages-list__item:nth-child(1)::before {
+    background-image: url(../img/antenna\.svg);
+}
+
+.advantages-list__item:nth-child(2)::before {
+    background-image: url(../img/clock\.svg);
+}
+
+.advantages-list__item:nth-child(3)::before {
+    background-image: url(../img/diagram\.svg);
+}
+
+.advantages-list__item:nth-child(4)::before {
+    background-image: url(../img/astronaut\.svg);
+}

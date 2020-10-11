@@ -1,0 +1,20 @@
+.page-header {
+    height: 80px;
+    width: auto;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.page-header .flexbox {
+    align-items:center;
+}
+
+.page-header .contacts-link + .contacts-link {
+    margin-left: 50px;
+}
